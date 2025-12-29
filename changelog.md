@@ -13,6 +13,21 @@
 - x.x.X (standard/minor release)
 - x.x.x.X (bug fix/emergency patch release)
 
+## Version 1.2.2 (2025-12-29)
+
+**General changes:**
+- Tweaked previous entries in the changelog
+- Overhauled the way the module is registered
+  - Instead of simply defining a version constant, the module's entire block of information is now defined on the module side (e.g., name, author, version, description)
+
+**Programmatic changes:**
+- Deprecated constants/global vars:
+  - `DOMTAGS_VERSION`
+
+**Modified files:**
+- dom-tags/class-noscript-tag.php (N)
+- domtags.php
+
 ## Version 1.2.1 (2025-03-04)
 
 **General changes:**
@@ -60,7 +75,9 @@
 - Added additional checks for inputs based on their `type` prop
 - Added support for the following tags and their properties:
   - `audio`, `iframe`, `link`, `meta`, `small`, `source`, `video`
-- New functions:
+
+**Programmatic changes:**
+- New functions/methods:
   - `domtags.php` (`domTagPr`)
 
 **Modified files:**
@@ -279,7 +296,9 @@
   - `abbr`, `h1-h6`, `section`
 - Whitelisted the `pattern` and `required` properties for the `input` tag
 - Dom tags can now be created without directly invoking the individual classes
-- New functions:
+
+**Programmatic changes:**
+- New functions/methods:
   - `dom-tags.php` (`domTag`)
 
 **Modified files:**
