@@ -13,12 +13,26 @@
 - x.x.X (standard/minor release)
 - x.x.x.X (bug fix/emergency patch release)
 
+## Version 1.2.3 (2026-01-31)
+
+**General changes:**
+- Added support for the following tags and their properties:
+  - `article`, `aside`, `nav`
+
+**Modified files:**
+- dom-tags/class-article-tag.php (N)
+- dom-tags/class-aside-tag.php (N)
+- dom-tags/class-nav-tag.php (N)
+- domtags.php
+
 ## Version 1.2.2 (2025-12-29)
 
 **General changes:**
 - Tweaked previous entries in the changelog
 - Overhauled the way the module is registered
   - Instead of simply defining a version constant, the module's entire block of information is now defined on the module side (e.g., name, author, version, description)
+- Added support for the following tags and their properties:
+  - `noscript`
 
 **Programmatic changes:**
 - Deprecated constants/global vars:

@@ -45,6 +45,8 @@ function domTag(string $tag_name, ?array $args = null): string {
 	return match($tag_name) {
 		'a' => \DomTags\AnchorTag::tag($args),
 		'abbr' => \DomTags\AbbrTag::tag($args),
+		'article' => \DomTags\ArticleTag::tag($args),
+		'aside' => \DomTags\AsideTag::tag($args),
 		'audio', 'video' => \DomTags\MediaTag::tag($args),
 		'br', 'hr' => \DomTags\SeparatorTag::tag($args),
 		'button' => \DomTags\ButtonTag::tag($args),
@@ -61,6 +63,7 @@ function domTag(string $tag_name, ?array $args = null): string {
 		'li' => \DomTags\ListItemTag::tag($args),
 		'link' => \DomTags\LinkTag::tag($args),
 		'meta' => \DomTags\MetaTag::tag($args),
+		'nav' => \DomTags\NavTag::tag($args),
 		'noscript' => \DomTags\NoscriptTag::tag($args),
 		'ol', 'ul' => \DomTags\ListTag::tag($args),
 		'option' => \DomTags\OptionTag::tag($args),
