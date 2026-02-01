@@ -13,6 +13,18 @@
 - x.x.X (standard/minor release)
 - x.x.x.X (bug fix/emergency patch release)
 
+## Version 1.2.3.2 (2026-01-31)
+
+**General changes:**
+- n/a
+
+**Programmatic changes:**
+- Removed constants/global vars:
+  - `DOMTAGS_VERSION`
+
+**Modified files:**
+- domtags.php (M)
+
 ## Version 1.2.3.1 (2026-01-31)
 
 **General changes:**
@@ -21,6 +33,7 @@
 
 **Modified files:**
 - README.md (M)
+- domtags.php (M)
 
 ## Version 1.2.3 (2026-01-31)
 
