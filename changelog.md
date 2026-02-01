@@ -13,6 +13,15 @@
 - x.x.X (standard/minor release)
 - x.x.x.X (bug fix/emergency patch release)
 
+## Version 1.2.3.1 (2026-01-31)
+
+**General changes:**
+- Incremented version
+- Incremented copyright
+
+**Modified files:**
+- README.md (M)
+
 ## Version 1.2.3 (2026-01-31)
 
 **General changes:**

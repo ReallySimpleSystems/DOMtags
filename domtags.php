@@ -7,7 +7,7 @@
  * @subpackage DomTags
  */
 
-define('DOMTAGS_VERSION', '1.2.2'); // Current version (DEPRECATED)
+define('DOMTAGS_VERSION', '1.2.3.1'); // Current version (DEPRECATED)
 
 registerModule('domtags', array(
 	'label' => 'DOMtags',
