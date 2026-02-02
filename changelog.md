@@ -13,6 +13,21 @@
 - x.x.X (standard/minor release)
 - x.x.x.X (bug fix/emergency patch release)
 
+## Version 1.2.4 (2026-02-02)
+
+**General changes:**
+- Updated README to include a list of available tags
+- Added a check to make sure the `registerModule` function exists
+- Whitelisted the `srcset` and `media` props for the `source` tag
+- Added support for the following tags and their properties:
+  - `legend`, `picture`, `title`
+
+**Modified files:**
+- README.md
+- dom-tags/class-legend-tag.php (N)
+- dom-tags/class-title-tag.php (N)
+- domtags.php (M)
+
 ## Version 1.2.3.2 (2026-01-31)
 
 **General changes:**

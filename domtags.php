@@ -7,15 +7,17 @@
  * @subpackage DomTags
  */
 
-registerModule('domtags', array(
-	'label' => 'DOMtags',
-	'author' => array(
-		'name' => 'Jace Fincham',
-		'url' => 'https://jacefincham.com/'
-	),
-	'version' => '1.2.3.2',
-	'description' => 'DOMtags are a set of dynamically generated HTML DOM tags created through a series of PHP classes. They are meant for keeping backend code clean in large projects that make use of lots of HTML within the PHP, which can cause unnecessary clutter.'
-));
+if(function_exists('registerModule')) {
+	registerModule('domtags', array(
+		'label' => 'DOMtags',
+		'author' => array(
+			'name' => 'Jace Fincham',
+			'url' => 'https://jacefincham.com/'
+		),
+		'version' => '1.2.4',
+		'description' => 'DOMtags are a set of dynamically generated HTML DOM tags created through a series of PHP classes. They are meant for keeping backend code clean in large projects that make use of lots of HTML within the PHP, which can cause unnecessary clutter.'
+	));
+}
 
 /**
  * Construct a DOM tag.
@@ -58,6 +60,7 @@ function domTag(string $tag_name, ?array $args = null): string {
 		'img' => \DomTags\ImageTag::tag($args),
 		'input' => \DomTags\InputTag::tag($args),
 		'label' => \DomTags\LabelTag::tag($args),
+		'legend' => \DomTags\LegendTag::tag($args),
 		'li' => \DomTags\ListItemTag::tag($args),
 		'link' => \DomTags\LinkTag::tag($args),
 		'meta' => \DomTags\MetaTag::tag($args),
@@ -66,6 +69,7 @@ function domTag(string $tag_name, ?array $args = null): string {
 		'ol', 'ul' => \DomTags\ListTag::tag($args),
 		'option' => \DomTags\OptionTag::tag($args),
 		'p' => \DomTags\ParagraphTag::tag($args),
+		'picture' => \DomTags\PictureTag::tag($args),
 		'script' => \DomTags\ScriptTag::tag($args),
 		'section' => \DomTags\SectionTag::tag($args),
 		'select' => \DomTags\SelectTag::tag($args),
@@ -76,6 +80,7 @@ function domTag(string $tag_name, ?array $args = null): string {
 		'table' => \DomTags\TableTag::tag($args),
 		'td', 'th' => \DomTags\TableCellTag::tag($args),
 		'textarea' => \DomTags\TextareaTag::tag($args),
+		'title' => \DomTags\TitleTag::tag($args),
 		'tr' => \DomTags\TableRowTag::tag($args),
 		default => 'Invalid tag!'
 	};
