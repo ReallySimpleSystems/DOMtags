@@ -14,7 +14,8 @@ if(function_exists('registerModule')) {
 			'name' => 'Jace Fincham',
 			'url' => 'https://jacefincham.com/'
 		),
-		'version' => '1.2.4',
+		'version' => '1.2.5',
+		'core_min_ver', '1.3.16',
 		'description' => 'DOMtags are a set of dynamically generated HTML DOM tags created through a series of PHP classes. They are meant for keeping backend code clean in large projects that make use of lots of HTML within the PHP, which can cause unnecessary clutter.'
 	));
 }
@@ -69,8 +70,10 @@ function domTag(string $tag_name, ?array $args = null): string {
 		'ol', 'ul' => \DomTags\ListTag::tag($args),
 		'option' => \DomTags\OptionTag::tag($args),
 		'p' => \DomTags\ParagraphTag::tag($args),
+		'pre' => \DomTags\PreTag::tag($args),
 		'picture' => \DomTags\PictureTag::tag($args),
 		'script' => \DomTags\ScriptTag::tag($args),
+		'search' => \DomTags\SearchTag::tag($args),
 		'section' => \DomTags\SectionTag::tag($args),
 		'select' => \DomTags\SelectTag::tag($args),
 		'small' => \DomTags\SmallTag::tag($args),

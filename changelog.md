@@ -13,6 +13,20 @@
 - x.x.X (standard/minor release)
 - x.x.x.X (bug fix/emergency patch release)
 
+## Version 1.2.5 (2026-06-12)
+
+**General changes:**
+- Tweaked a previous entry in the changelog
+- Updated README
+- Added support for the following tags and their properties:
+  - `pre`, `search`
+
+**Modified files:**
+- README.md
+- dom-tags/class-pre-tag.php (N)
+- dom-tags/class-search-tag.php (N)
+- domtags.php
+
 ## Version 1.2.4 (2026-02-02)
 
 **General changes:**
@@ -25,6 +39,8 @@
 **Modified files:**
 - README.md
 - dom-tags/class-legend-tag.php (N)
+- dom-tags/class-picture-tag.php (N)
+- dom-tags/class-source-tag.php
 - dom-tags/class-title-tag.php (N)
 - domtags.php (M)
 

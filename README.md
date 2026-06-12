@@ -17,6 +17,7 @@ Place the files in a subdirectory of your root installation, such as an `include
   - `aside` { [aside tag](https://www.w3schools.com/tags/tag_aside.asp) }
   - `div` { [division tag](https://www.w3schools.com/tags/tag_div.asp) }
   - `nav` { [navigation links tag](https://www.w3schools.com/tags/tag_nav.asp) }
+  - `search` { [search tag](https://www.w3schools.com/tags/tag_search.asp) }
   - `section` { [section tag](https://www.w3schools.com/tags/tag_section.asp) }
   - `span` { [span tag](https://www.w3schools.com/tags/tag_span.asp) }
 - *Doc/media tags*
@@ -63,9 +64,10 @@ Place the files in a subdirectory of your root installation, such as an `include
   - `i` { [italic text tag](https://www.w3schools.com/tags/tag_i.asp) }
   - `h1`, `h2`, `h3`, `h4`, `h5`, `h6` { [heading tags](https://www.w3schools.com/tags/tag_hn.asp) }
   - `p` { [paragraph tag](https://www.w3schools.com/tags/tag_p.asp) }
+  - `pre` { [preformatted text tag](https://www.w3schools.com/tags/tag_pre.asp) }
   - `small` { [small text tag](https://www.w3schools.com/tags/tag_small.asp) }
   - `strong` { [strong importance tag](https://www.w3schools.com/tags/tag_strong.asp) }
 
 ## License
-Copyright (c) 2023-2026 [Jace Fincham](https://jacefincham.com/)<br>
+Copyright (c) 2023-2026 [Jace Fincham](https://api.jacefincham.com/)<br>
 The DOMtags library is released under the [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl-3.0.html).
