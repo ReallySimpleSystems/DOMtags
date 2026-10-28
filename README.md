@@ -1,10 +1,12 @@
 # DOMtags
 
 ## About the project
-**DOMtags** are a set of dynamically generated HTML DOM tags created through a series of PHP classes. They are meant for keeping backend code clean in large projects that make use of lots of HTML within the PHP, which can cause unnecessary clutter. I will add support for additional tags/parameters as needed/requested. The project is considered stable and in full release.
+**DOMtags** are a set of dynamically generated HTML DOM tags created through a series of PHP classes. They are meant for keeping backend code clean in large projects that make use of lots of HTML within the PHP, which can cause unnecessary clutter. Support for additional tags/parameters will be added as needed/requested. The project is considered stable and in full release.
+
+Initially designed as a way to clean up backend code clutter in the ReallySimpleCMS, the DOMtags library emerged as its own independent entity, becoming the first `module` designed for ReallySimpleSystems software.
 
 ## Installation
-Place the files in a subdirectory of your root installation, such as an `includes/modules` directory. The license and readme may be removed once installed. DOMtags requires at least PHP 8.0 and will throw fatal errors on 7.4 or lower.
+Place the files in a subdirectory of your root installation, such as an `includes/modules` directory. The license and readme may be removed once installed. DOMtags requires at least PHP 8.0 and will throw fatal errors on 7.4 or lower. If you are running licensed ReallySimpleSystems software, you can also install this using built-in functionality on the ReallySimpleCMS (future projects will also support integration).
 
 ## Supported tags
 **Syntax:**
@@ -40,6 +42,7 @@ Place the files in a subdirectory of your root installation, such as an `include
   - `textarea` { [textarea tag](https://www.w3schools.com/tags/tag_textarea.asp) }
 - *List tags*
   - `li` { [list item tag](https://www.w3schools.com/tags/tag_li.asp) }
+  - `menu` { [menu (unordered list) tag](https://www.w3schools.com/tags/tag_menu.asp) }
   - `ol` { [ordered list tag](https://www.w3schools.com/tags/tag_ol.asp) }
   - `ul` { [unordered list tag](https://www.w3schools.com/tags/tag_ul.asp) }
 - *Overhead tags*
@@ -69,5 +72,5 @@ Place the files in a subdirectory of your root installation, such as an `include
   - `strong` { [strong importance tag](https://www.w3schools.com/tags/tag_strong.asp) }
 
 ## License
-Copyright (c) 2023-2026 [Jace Fincham](https://api.jacefincham.com/)<br>
+Copyright (c) 2023-2026 [ReallySimpleSystems](https://api.jacefincham.com/)<br>
 The DOMtags library is released under the [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl-3.0.html).

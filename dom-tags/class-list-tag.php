@@ -1,6 +1,6 @@
 <?php
 /**
- * The <ul|ol> DOMtag.
+ * The <ul|ol|menu> DOMtag.
  * @since 1.0.0
  *
  * @author Jace Fincham
@@ -16,7 +16,7 @@ class ListTag extends \DomTags implements DomTagInterface {
 	 * @access private
 	 * @var array
 	 */
-	private const TAG_TYPES = array('ul', 'ol');
+	private const TAG_TYPES = array('ul', 'ol', 'menu');
 	
 	/**
 	 * The current tag type.

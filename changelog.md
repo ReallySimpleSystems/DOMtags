@@ -13,6 +13,20 @@
 - x.x.X (standard/minor release)
 - x.x.x.X (bug fix/emergency patch release)
 
+## Version 1.2.6 (2026-10-27)
+
+**General changes:**
+- Removed a directive in `.gitignore`
+- Expanded README text to include up-to-date information on how to maintain the software
+- Added support for the following tags and their properties:
+  - `menu`
+
+**Modified files:**
+- .gitignore
+- README.md
+- dom-tags/class-list-tag.php
+- domtags.php
+
 ## Version 1.2.5 (2026-06-12)
 
 **General changes:**
