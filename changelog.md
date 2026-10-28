@@ -13,11 +13,21 @@
 - x.x.X (standard/minor release)
 - x.x.x.X (bug fix/emergency patch release)
 
+## Version 1.2.6.1 (2026-10-28)
+
+**General changes:**
+- Corrected the version
+- Tweaked a previous entry in the changelog
+
+**Modified files:**
+- n/a
+
 ## Version 1.2.6 (2026-10-27)
 
 **General changes:**
 - Removed a directive in `.gitignore`
 - Expanded README text to include up-to-date information on how to maintain the software
+- Module now makes use of the `core_min_supported` and `core_max_tested` params in its registry
 - Added support for the following tags and their properties:
   - `menu`
 

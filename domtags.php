@@ -14,7 +14,7 @@ if(function_exists('registerModule')) {
 			'name' => 'Jace Fincham',
 			'url' => 'https://jacefincham.com/'
 		),
-		'version' => '1.2.6_dev',
+		'version' => '1.2.6',
 		'core_min_supported' => '1.3.16-beta',
 		'core_max_tested' => '1.4.0-beta',
 		'description' => 'DOMtags are a set of dynamically generated HTML DOM tags created through a series of PHP classes. They are meant for keeping backend code clean in large projects that make use of lots of HTML within the PHP, which can cause unnecessary clutter.'
